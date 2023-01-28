@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "497643403480",
+    "project_id": "register-with-firebase-d684c",
+    "storage_bucket": "register-with-firebase-d684c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497643403480:android:c8afed9b57ffe9b884bfad",
+        "android_client_info": {
+          "package_name": "com.itdocx.registerwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "497643403480-fcp184folfo32q13av4me53rvd3a9f0f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrxpx_PqRxIhpNKimPfG9TCsu1AExPHag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "497643403480-fcp184folfo32q13av4me53rvd3a9f0f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

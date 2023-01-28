@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <ProgressBar
+        android:indeterminateTint="@color/black"
+        android:visibility="gone"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:elevation="5dp"
+        android:padding="70dp"
+        android:id="@+id/SIprog"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="Welcome,"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:text="Sign in to Continue"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        />
+    </LinearLayout>
+
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:gravity="center"
+      android:orientation="vertical">
+
+      <EditText
+          android:singleLine="true"
+          android:inputType="textEmailAddress"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Email"
+          android:padding="10dp"
+          android:background="@drawable/bg_et"
+          android:layout_marginHorizontal="30dp"
+          android:layout_marginVertical="10dp"
+          android:id="@+id/etSIEmail"/>
+
+
+      <EditText
+          android:singleLine="true"
+          android:inputType="textPassword"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Password"
+          android:padding="10dp"
+          android:background="@drawable/bg_et"
+          android:layout_marginHorizontal="30dp"
+          android:layout_marginVertical="10dp"
+          android:id="@+id/etSIPassword"/>
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="70dp"
+          android:text="Sign in"
+          android:textStyle="bold"
+          android:padding="10dp"
+          android:textSize="16sp"
+          android:id="@+id/btnSignin"/>
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="or"
+          android:textAlignment="center"
+          android:textSize="14sp"
+          />
+      <Button
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginHorizontal="70dp"
+          android:text="Sign Up"
+          android:textStyle="bold"
+          android:padding="10dp"
+          android:textSize="16sp"
+          android:id="@+id/btnSignUpLogin"/>
+
+  </LinearLayout>
+</FrameLayout>
+</layout>
